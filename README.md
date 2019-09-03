@@ -1,5 +1,7 @@
 A demo using [Scenic Live Reload](https://github.com/axelson/scenic_live_reload/).
 
+[![Screencast Demo](./demo.gif)](https://raw.githubusercontent.com/axelson/scenic_live_reload_demo/master/demo.gif)
+
 # How it works
 
 Live compilation is provided by
