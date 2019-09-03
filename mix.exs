@@ -24,6 +24,7 @@ defmodule ScenicLiveReloadDemo.MixProject do
   defp deps do
     [
       {:scenic, "~> 0.10"},
+      {:scenic_live_reload, "~> 0.1"},
       {:scenic_driver_glfw, "~> 0.10", targets: :host},
 
       # These deps are optional and are included as they are often used.
