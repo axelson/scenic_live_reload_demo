@@ -10,7 +10,8 @@ defmodule ScenicLiveReloadDemo do
     # start the application with the viewport
     children = [
       ScenicLiveReloadDemo.Sensor.Supervisor,
-      {Scenic, viewports: [main_viewport_config]}
+      {Scenic, viewports: [main_viewport_config]},
+      {ScenicLiveReload, viewports: [main_viewport_config]}
     ]
 
     Supervisor.start_link(children, strategy: :one_for_one)
